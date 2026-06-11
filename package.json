@@ -1,0 +1,24 @@
+{
+  "name": "bihari-traders-whatsapp-service",
+  "version": "1.0.0",
+  "description": "Baileys-powered WhatsApp automation for Bihari Traders",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "mongodb": "^6.9.0",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^9.5.0",
+    "pino-pretty": "^11.3.0",
+    "dotenv": "^16.4.5",
+    "sharp": "^0.32.6",
+    "qrcode": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
